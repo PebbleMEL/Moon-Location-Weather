@@ -1,0 +1,8 @@
+# Ignore build generated files
+build
+
+# Ignore waf lock file
+.lock-waf*
+
+# Ignore any assets used for marketing, app store etc
+assets

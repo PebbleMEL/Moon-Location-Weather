@@ -1,0 +1,60 @@
+{
+    "appKeys": {
+        "KEY_BGCOLOR": 7,
+        "KEY_FGCOLOR": 6,
+        "KEY_INTERVAL": 5,
+        "KEY_LOCATIONCORRECTION": 4,
+        "KEY_STRING1": 0,
+        "KEY_STRING2": 1,
+        "KEY_STRING3": 2,
+        "KEY_TIMEZONEOFFSET": 3
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "Peter Summers",
+    "longName": "Moon, Location & Weather",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[-0-9AP?!.]",
+                "file": "fonts/APHont-Bold_q15c.ttf",
+                "name": "APHont_Bold_16",
+                "trackingAdjust": -1,
+                "type": "font"
+            },
+            {
+                "file": "fonts/APHont-Bold_q15c.ttf",
+                "name": "APHont_Bold_24",
+                "trackingAdjust": -1,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/APHont-Bold_q15c.ttf",
+                "name": "APHont_Bold_48",
+                "trackingAdjust": -1,
+                "type": "font"
+            },
+            {
+                "file": "images/watch face.png",
+                "menuIcon": true,
+                "name": "menu_icon",
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Moon Watch",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "33bc275a-c300-444f-b2fe-2095d1d960d4",
+    "versionLabel": "5.8",
+    "watchapp": {
+        "watchface": true
+    }
+}
